@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Welcome to WooSeok Talk</title>
+    <title>Friends page</title>
   </head>
   <body>
     <div class="status-bar">
@@ -22,20 +22,15 @@
       </div>
     </div>
 
-    <header class="welcome-header">
-      <h1 class="welcome-header__title">Welcome to Wooseok Talk</h1>
-      <p class="welcome-header__text">
-        If you have a Wooseok Account, log in with your email or phone number
-      </p>
-    </header>
-    <form action="friends.html" method="GET" id="login-form">
-      <input name="username" type="text" placeholder="Email or phone number" />
-      <input name="password" type="password" placeholder="Password" />
-      <input type="submit" value="Log In" />
-      <a href="#">Find Wooseok Account or Password</a>
-    </form> 
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="fas fa-users fa-lg"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="#"><i class="fas fa-comments fa-lg"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="#"><i class="fas fa-search fa-lg"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="#"><i class="fas fa-ellipsis-h fa-lg"></i></i></a></li>
+        </ul>
+    </nav>   
     
-
     <script
       src="https://kit.fontawesome.com/dd16014fc4.js"
       crossorigin="anonymous"
