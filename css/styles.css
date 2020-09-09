@@ -1,5 +1,5 @@
 /*순서 중요하다*/
-@import url("https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 
 @import "reset.css";
 @import "variables.css";
@@ -7,11 +7,14 @@
 /* Components */
 @import "component/status-bar.css";
 @import "component/nav-bar.css";
+@import "component/screen-header.css";
 
 /* Screens */
 @import "screen/login.css";
+@import "screen/friend.css";
 
 body {
-  font-family: "Lato", sans-serif;
+  color: #2e363e;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 500;
 }

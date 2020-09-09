@@ -6,17 +6,33 @@
     padding: 20px 50px;
     box-sizing: border-box;
     border-top: 1px solid rgba(121,121,121,0.3);
-}
+} 
 
 .nav__list {
+    position: relative;
     display:flex;
     justify-content: space-between;
 }
 .nav__link {
+    position: relative;
     color: #2e363e;
 }
 .status-bar {
     position: fixed;
     top: 0;
     width:100%;
+}
+.nav__notification {
+    background-color: tomato;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    color:white;
+    font-weight: 400;
+    position: absolute;
+    left: 10px;
+    bottom: 12px;
 }
