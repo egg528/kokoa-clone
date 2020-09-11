@@ -9,6 +9,7 @@
 @import "component/nav-bar.css";
 @import "component/screen-header.css";
 @import "component/user-components.css";
+@import "component/badge.css";
 
 /* Screens */
 @import "screen/login.css";
@@ -18,4 +19,8 @@ body {
   color: #2e363e;
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }

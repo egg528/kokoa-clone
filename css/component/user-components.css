@@ -40,6 +40,13 @@
 }
 
 .user-component_column:last-child {
-    color: rgba(0,0,0,0.5);
+    color: rgba(0,0,0,0.4);
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
 
+}
+.user-component__time {
+    display:block;
+    margin-bottom: 5px;
 }

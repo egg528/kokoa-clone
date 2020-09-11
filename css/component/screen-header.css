@@ -2,12 +2,17 @@
     display:flex;
     justify-content: space-between;
     padding: 40px 25px 25px 25px;
+    margin-bottom: 15px;
 }
 .screen-header__title{
     font-size:32px;
     font-weight: 600;
 }
 .screen-header__icons span {
+    align-items: center;
     margin-left: 25px;
     bottom: 5px;
+}
+.screen-header__icons {
+    margin-top: 10px;
 }
