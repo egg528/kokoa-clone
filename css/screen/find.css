@@ -46,6 +46,11 @@
 }
 .open-post{
     display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.open-post:nth-child(2th) {
+    margin-top:5px;
 }
 .open-post__title {
     font-weight: 600;
@@ -80,4 +85,26 @@
 }
 .open-post__members-status {
     color: #ffb0e0;
+}
+.open-post__photo img {
+   width:120px;
+   height:120px;
+   border-radius: 10px; 
+}
+.open-post__photo {
+    position: relative;
+}
+.open-post__heart-count {
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border-radius: 15px;
+    width: 50px;
+    padding: 4px 8px;
+    position: absolute;
+    top: 88px;
+    left:45px;
+    font-size: 14px;
+}
+.open-post__heart-count span {
+    margin-left: 4px;
 }
