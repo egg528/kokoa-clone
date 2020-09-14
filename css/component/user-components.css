@@ -50,3 +50,7 @@
     display:block;
     margin-bottom: 5px;
 }
+.user-component__subtitle i {
+    margin-left:4px;
+    font-size: 15px;
+}

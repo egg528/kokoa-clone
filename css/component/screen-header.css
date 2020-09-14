@@ -17,3 +17,7 @@
     margin-top: 10px;
     position: relative;
 }
+.screen-header__icons span i {
+    color: black;
+}
+

@@ -9,16 +9,7 @@
 .more-suggestions__title {
     margin-bottom: 30px;
 }
-.icon-row__second {
-    display: flex;
-    justify-content:flex-start;
-    
-}
 
-.last-icon{
-    height: 30px;
-
-} 
 .more-suggestions__icons {
     display:flex
 
