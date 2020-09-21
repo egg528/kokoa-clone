@@ -4,10 +4,17 @@
     font-size: 18px;
     display:flex;
     align-items:center;
+    justify-content: space-between;
 }
 
 .setting-setting i {
     opacity:0.8;
     margin-right: 20px;
     font-size: 22px;
+}
+.setting-setting-column:last-child {
+    opacity:0.5;
+}
+.fa-angle-left {
+    color:black;
 }
