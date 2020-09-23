@@ -12,6 +12,7 @@
 @import "component/badge.css";
 @import "component/icon-row.css";
 @import "component/alternative-screen-header.css";
+@import "component/no-mobile.css";
 
 /* Screens */
 @import "screen/login.css";
